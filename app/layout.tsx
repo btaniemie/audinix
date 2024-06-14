@@ -7,7 +7,7 @@ import AudioProvider from "@/providers/AudioProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PodWave",
+  title: "Audinix",
   description: "Discover, create, and share podcasts effortlessly with AI-powered tools",
   icons: {
     icon: '/icons/logo.svg'
