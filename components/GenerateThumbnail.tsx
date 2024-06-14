@@ -90,8 +90,8 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
 
   return (
     <>
-    <div className='generate_thumbnail'>
-      <Button
+    <div className='text-16 font-bold text-white-1 mt-7'>
+      {/* <Button
         type='button'
         variant='plain'
         onClick={() => setIsAiThumbnail(true)}
@@ -100,19 +100,19 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
         })}
       >
         Generate thumbnail using AI
-      </Button>
-      <Button
+      </Button> */}
+      {/* <Button
         type='button'
         variant='plain'
         onClick={() => setIsAiThumbnail(false)}
         className={cn('', {
           'bg-black-6': !isAiThumbnail
         })}
-      >
-        Upload custom image
-      </Button>
+      > */}
+        Upload thumbnail
+      {/* </Button> */}
     </div>
-    {isAiThumbnail ? (
+    {/* {isAiThumbnail ? (
       <div className='flex flex-col gap-5'>
         <div className='mt-5 flex flex-col gap-2.5'>
             <Label className='text-16 font-bold text-white-1'>
@@ -140,7 +140,7 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
         </div>
       </div>
 
-    ) : (
+    ) : ( */}
       <div className='image_div' onClick={() => imageRef?.current?.click()}>
         <Input 
           type='file'
@@ -161,7 +161,6 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
           <p className='text-12 font-normal text-gray-1'>SVG/PNG/JPG/GIF (max. 1080x1080px)</p>
         </div>
       </div>
-    )}
     {image && (
       <div className='flex-center w-full'>
         <Image src={image} width={200} height={200} className='mt-5' alt="thumbnail"/>

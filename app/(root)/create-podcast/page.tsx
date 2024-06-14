@@ -105,17 +105,17 @@ const CreatePodcast = () => {
       router.push('/')
     } catch (error) {
       console.log(error)
-      toast({
-        title: 'ERROR!', 
-        variant: 'destructive',
-      })
+      // toast({
+      //   title: 'ERROR!', 
+      //   variant: 'destructive',
+      // })
       setIsSubmitting(false);
     }
   }
 
   return (
     <section className="mt-10 flex flex-col">
-      <h1 className='text-20 font-bold text-white-1'>Create</h1>
+      <h1 className='text-20 font-bold text-orange-1'>Create</h1>
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="mt-12 flex w-full flex-col">
         <div className="flex flex-col gap-[30px] border-b border-black-5 pb-10 ">

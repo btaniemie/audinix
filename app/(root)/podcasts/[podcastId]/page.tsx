@@ -22,7 +22,7 @@ const PodcastDetails = ({ params: { podcastId } }: { params: { podcastId: Id<'po
   return (
     <section className='flex w-full flex-col'>
       <header className='mt-9 flex items-center justify-between'>
-        <h1 className='text-20 font-bold text-white-1'>Playing Now</h1>
+        <h1 className='text-20 font-bold text-orange-1'>Playing Now</h1>
         <figure className='flex gap-3'>
           <Image 
             src='/icons/headphone.svg'
@@ -56,7 +56,7 @@ const PodcastDetails = ({ params: { podcastId } }: { params: { podcastId: Id<'po
           {similarPodcasts?.map(({ _id, podcastTitle, podcastDescription, imageUrl }) => (
             <PodcastCard
               key={_id}
-              imgUrl={imageUrl}
+              imgUrl={imageUrl!}
               title={podcastTitle}
               description={podcastDescription}
               podcastId={_id}
