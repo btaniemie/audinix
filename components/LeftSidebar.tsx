@@ -37,7 +37,7 @@ const LeftSidebar = () => {
           })}
         </nav>
         <div className='flex flex-col gap-2'>
-        <div className='text-orange-1 font-semibold pl-9'>Made by Minh Le</div>
+        <div className='text-white-1 font-semibold pl-7'>🍵 Built by Minh Le</div>
         
         <SignedOut>
           <div className='flex-center w-full pb-14 max-lg:px-4 lg:pr-8'>
