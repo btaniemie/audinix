@@ -1,17 +1,18 @@
 # 📢 Introduction 
 
-This full-stack web application is designed to take the hassle out of planning trips. By leveraging the power of the Gemini AI model, this app generates personalized itineraries based on user preferences. Whether you're planning a weekend getaway or a long vacation, **hopdrift** provides recommendations for accommodations, attractions, and activities tailored to your needs.
+**audinix** is a web-app for avid podcast listeners and creators, where users can publish podcasts without the need for any recording equipment. Simply provide a prompt, and AI will generate high-quality audio content for you. Discover new podcasts, explore creators, and enjoy a fully functional app designed for podcast enthusiasts.
 
 # 💻 Tech Stack
 
-* **Frontend**: React, Tailwind CSS
-* **Backend**: Firebase
-* **APIs**: Gemini AI, Google Maps API
-* **Deployment**: Vercel
+* **Next.js**
+* **Convex**
+* **OpenAI API**
+* **OpenAI API**
+* **Tailwind CSS**
 
 # 🏁 Getting Started
 
-1. **Sign Up/Login**: Create an account or log in to start planning your trip.
-2. **Set Preferences**: Enter your trip details including location, duration, budget, and the number of travelers.
-3. **Generate Itinerary**: Let the AI model create a personalized travel plan for you.
-4. **Explore and Customize**: Review the suggested itinerary and make any desired adjustments.
+1. **Sign Up/Login**: Create an account or log in to start using the platform.
+2. **Create Podcasts**: Provide a prompt and let the AI generate high-quality audio content for you.
+3. **Discover & Listen**: Browse through a wide selection of podcasts and discover new content.
+4. **Manage Content**: Utilize the app's features to manage your podcasting needs effectively.
