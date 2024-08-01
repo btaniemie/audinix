@@ -7,7 +7,6 @@
 * **Next.js**
 * **Convex**
 * **OpenAI API**
-* **OpenAI API**
 * **Tailwind CSS**
 
 # 🏁 Getting Started
