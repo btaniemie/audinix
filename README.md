@@ -9,7 +9,7 @@
 * **OpenAI API**
 * **Tailwind CSS**
 
-# 🏁 Getting Started
+# 🔎 Getting Started
 
 1. **Sign Up/Login**: Create an account or log in to start using the platform.
 2. **Create Podcasts**: Provide a prompt and let the AI generate high-quality audio content for you.
